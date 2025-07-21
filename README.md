@@ -24,28 +24,27 @@ Key features of every project:
 - **Programming Language:** Python 3.x
 - **Core Libraries:** scikit-learn, pandas, NumPy, matplotlib, seaborn
 - **Development Tools:** Jupyter Notebook, Git, Visual Studio Code
-- **Upcoming Integrations:** Docker, MLflow, FastAPI, DVC, Hugging Face
+- **MLOps Tools:** Docker, MLflow, FastAPI, DVC, Hugging Face
 
-## 🧱 General Repository Structure
-
-This lab follows a clean, modular structure to help you stay organized and scale projects effortlessly.
-
-```yaml
+## 📁 Repository Structure
+```
 ML-Evolution-Lab/
 │
-├── projects/                # 🚀 All hands-on projects
-│   └── project-name/
-│       ├── data/            # 📊 Raw & processed datasets
-│       ├── notebooks/       # 📒 Jupyter notebooks (exploration & modeling)
-│       ├── scripts/         # 🐍 Python scripts (preprocessing, training, etc.)
-│       ├── experiments/     # 🧪 Logs, trial runs, test models
-│       ├── assets/          # 🖼️ Images, visuals, UI mocks
-│       └── README.md        # 📄 Project documentation
+├── projects/                        # 🚧 Explore hands-on ML projects
+│   │── <project-name>/              # 📁 Each project in its own folder
+│   │   ├── data/                    # 📊 Datasets for the project
+│   │   │   ├── raw/                 #   └─ Original, untouched data
+│   │   │   └── processed/           #   └─ Cleaned & transformed data
+│   │   ├── preprocess.py            # 🧹 Data preprocessing script
+│   │   ├── eda.py                   # 🔎 Exploratory Data Analysis
+│   │   ├── experiment.py            # 🧪 Model experimentation
+│   │   ├── final_model.py           # 🏆 Final model training & saving
+│   │   ├── assets/                  # 🖼️ Images, charts, and files
+│   │   ├── notebook.py              # 📓 Interactive Python notebook
+│   │   └── Documentation.md         # 📖 Project documentation
+│   └── Overview.md                  # 🗒️ Quick Folder summary
 │
-├── reusable/                # ♻️ Shared modules for all projects
-│   ├── preprocessing.py     # 🔄 Data preprocessing utilities
-│   ├── evaluation.py        # 📈 Model evaluation helpers
-│   └── utils.py             # 🛠️ General-purpose functions
+└── README.md                        # 🏠 Lab overview & instructions
 ```
 
 ## 💌 Connect & Collaborate
@@ -53,4 +52,5 @@ ML-Evolution-Lab/
 Have ideas, feedback, or a unique use case?  
 Connect with me on [LinkedIn](https://www.linkedin.com/in/monica-ashokkumar/) or subscribe to [TheDataCell](https://thedatacell.substack.com/) for updates and collaboration opportunities.
 
-> “Machine Learning is more than a tool—it's a craft. ML Evolution Lab is where I forge new skills.” – Monica 💙
+> "Machine Learning is more than a tool—it's a craft. ML Evolution Lab is where I forge new skills." – Monica 💙
+
