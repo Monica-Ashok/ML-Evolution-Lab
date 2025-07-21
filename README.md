@@ -26,6 +26,28 @@ Key features of every project:
 - **Development Tools:** Jupyter Notebook, Git, Visual Studio Code
 - **Upcoming Integrations:** Docker, MLflow, FastAPI, DVC, Hugging Face
 
+## 🧱 General Repository Structure
+
+This lab follows a clean, modular structure to help you stay organized and scale projects effortlessly.
+
+```yaml
+ML-Evolution-Lab/
+│
+├── projects/                # 🚀 All hands-on projects
+│   └── project-name/
+│       ├── data/            # 📊 Raw & processed datasets
+│       ├── notebooks/       # 📒 Jupyter notebooks (exploration & modeling)
+│       ├── scripts/         # 🐍 Python scripts (preprocessing, training, etc.)
+│       ├── experiments/     # 🧪 Logs, trial runs, test models
+│       ├── assets/          # 🖼️ Images, visuals, UI mocks
+│       └── README.md        # 📄 Project documentation
+│
+├── reusable/                # ♻️ Shared modules for all projects
+│   ├── preprocessing.py     # 🔄 Data preprocessing utilities
+│   ├── evaluation.py        # 📈 Model evaluation helpers
+│   └── utils.py             # 🛠️ General-purpose functions
+```
+
 ## 💌 Connect & Collaborate
 
 Have ideas, feedback, or a unique use case?  
