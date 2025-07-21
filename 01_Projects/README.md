@@ -5,7 +5,7 @@ The `projects/` folder is your launchpad for building, experimenting, and scalin
 
 ## 📖 Start Here: The Overview
 
-This file (`Overview.md`) is your guide to the workspace.  
+This file is your guide to the workspace.  
 New to the lab? Handing off a project?  
 Read this first to understand how everything fits together.
 
@@ -38,7 +38,7 @@ Each project folder includes:
 - **`final_model.py`** — Train & save your best model
 - **`assets/`** — Plots, outputs, supporting files
 - **`notebook.py`** — Interactive pipeline walkthrough
-- **`Documentation.md`** — The central knowledge hub for your project.  
+- **`README.md`** — The central knowledge hub for your project.  
     This file is where you tell the full story:  
     - **Problem Statement:** Clearly define the challenge, objectives, and success criteria.  
     - **Data Overview:** Describe sources, formats, and key characteristics of your datasets.  

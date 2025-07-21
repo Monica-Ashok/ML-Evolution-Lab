@@ -41,8 +41,8 @@ ML-Evolution-Lab/
 │   │   ├── final_model.py           # 🏆 Final model training & saving
 │   │   ├── assets/                  # 🖼️ Images, charts, and files
 │   │   ├── notebook.py              # 📓 Interactive Python notebook
-│   │   └── Documentation.md         # 📖 Project documentation
-│   └── Overview.md                  # 🗒️ Quick Folder summary
+│   │   └── README.md         # 📖 Project documentation
+│   └── README.md                  # 🗒️ Quick Folder summary
 │
 └── README.md                        # 🏠 Lab overview & instructions
 ```
