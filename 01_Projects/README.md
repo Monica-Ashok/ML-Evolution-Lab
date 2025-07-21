@@ -51,5 +51,5 @@ Each project folder includes:
 
 ---
 
-**Ready to build impactful ML projects?**  
+## Ready to build impactful ML projects?
 Dive in, stay organized, and let your ideas evolve into real-world solutions!
