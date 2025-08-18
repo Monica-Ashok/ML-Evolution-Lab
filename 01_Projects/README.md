@@ -43,7 +43,7 @@ Each project folder includes:
     - **Results & Evaluation:** Present metrics, visualizations, and insights from your experiments and final model.
     - **Learnings & Next Steps:** Reflect on what worked, what didn’t, and outline future improvements or open questions.
 
-    Clear, thorough documentation makes your work understandable, reproducible, and valuable for collaborators and your future self. It connects code, data, and outcomes into a coherent narrative.
+    Well-maintained documentation ensures your work is understandable, reproducible, and valuable for collaborators or future you. It’s the heart of each project — connecting code, data, and outcomes into a coherent narrative.
 
 
 ---
