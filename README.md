@@ -31,21 +31,18 @@ Key features of every project:
 ```
 ML-Evolution-Lab/
 │
-├── projects/                        # 🚧 Explore hands-on ML projects
-│   │── <project-name>/              # 📁 Each project in its own folder
-│   │   ├── data/                    # 📊 Datasets for the project
-│   │   │   ├── raw/                 #   └─ Original, untouched data
-│   │   │   └── processed/           #   └─ Cleaned & transformed data
-│   │   ├── preprocess.py            # 🧹 Data preprocessing script
-│   │   ├── eda.py                   # 🔎 Exploratory Data Analysis
-│   │   ├── experiment.py            # 🧪 Model experimentation
-│   │   ├── final_model.py           # 🏆 Final model training & saving
-│   │   ├── assets/                  # 🖼️ Images, charts, and files
-│   │   ├── notebook.py              # 📓 Interactive Python notebook
-│   │   └── README.md         # 📖 Project documentation
-│   └── README.md                  # 🗒️ Quick Folder summary
+├── projects/                      # 🚧 Explore hands-on ML projects
+│   ├── <project-name>/            # 📁 Each project in its own folder
+│   │   ├── Assets/                # 📊 Images, plots, etc.
+│   │   ├── Data/                  # 📊 Datasets for the project
+│   │   ├── 01_preprocess.ipynb    # 🧹 Data preprocessing script
+│   │   ├── 02_Exploratory_Analysis.ipynb   # 🔎 Exploratory Data Analysis
+│   │   ├── 03_Model_Experiment.ipynb      # 🧪 Model experimentation
+│   │   ├── 04_Final_Model.ipynb           # 🏆 Final model training & saving
+│   │   └── README.md           # 📖 Project documentation
+│   └── README.md                  # 🗒️ Quick folder summary
 │
-└── README.md                        # 🏠 Lab overview & instructions
+└── README.md                      # 🏠 Lab overview & instructions
 ```
 
 ## 💌 Connect & Collaborate
