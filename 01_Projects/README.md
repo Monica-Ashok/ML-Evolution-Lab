@@ -37,7 +37,6 @@ Each project folder includes:
 - **`experiment.py`** — Model trials & tuning
 - **`final_model.py`** — Train & save your best model
 - **`assets/`** — Plots, outputs, supporting files
-- **`notebook.py`** — Interactive pipeline walkthrough
 - **`README.md`** — The central knowledge hub for your project.  
     This file is where you tell the full story:  
     - **Problem Statement:** Clearly define the challenge, objectives, and success criteria.  
