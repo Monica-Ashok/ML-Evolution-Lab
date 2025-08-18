@@ -29,23 +29,21 @@ Inside, you’ll find a proven structure that guides you from raw data to polish
 
 Each project folder includes:
 
-- **`data/`**
-    - `raw/` — Original datasets
-    - `processed/` — Cleaned, transformed data
-- **`preprocess.py`** — Data loading & transformation
-- **`eda.py`** — Exploratory Data Analysis
-- **`experiment.py`** — Model trials & tuning
-- **`final_model.py`** — Train & save your best model
-- **`assets/`** — Plots, outputs, supporting files
-- **`README.md`** — The central knowledge hub for your project.  
-    This file is where you tell the full story:  
-    - **Problem Statement:** Clearly define the challenge, objectives, and success criteria.  
-    - **Data Overview:** Describe sources, formats, and key characteristics of your datasets.  
-    - **Approach & Methodology:** Explain your reasoning, preprocessing steps, modeling choices, and experimental design.  
-    - **Results & Evaluation:** Present metrics, visualizations, and insights from your experiments and final model.  
-    - **Learnings & Next Steps:** Summarize what worked, what didn’t, and outline future improvements or open questions. 
+- **`Assets/`** — Store plots, outputs, and supporting files that illustrate your work.
+- **`Data/`** — Contains all datasets relevant to the project.
+- **`01_preprocess.ipynb`** — Notebook for data loading, cleaning, and transformation.
+- **`02_Exploratory_Analysis.ipynb`** — Dive into exploratory data analysis to uncover patterns and insights.
+- **`03_Model_Experiment.ipynb`** — Experiment with different models, tune hyperparameters, and compare results.
+- **`04_Final_Model.ipynb`** — Train, evaluate, and save your best-performing model.
+- **`README.md`** — The central documentation hub for your project.  
+    Use this file to communicate the full story:
+    - **Problem Statement:** Define the challenge, objectives, and criteria for success.
+    - **Data Overview:** Summarize data sources, formats, and key characteristics.
+    - **Approach & Methodology:** Detail your reasoning, preprocessing steps, modeling choices, and experimental design.
+    - **Results & Evaluation:** Present metrics, visualizations, and insights from your experiments and final model.
+    - **Learnings & Next Steps:** Reflect on what worked, what didn’t, and outline future improvements or open questions.
 
-    Well-maintained documentation ensures your work is understandable, reproducible, and valuable for collaborators or future you. It’s the heart of each project — connecting code, data, and outcomes into a coherent narrative.
+    Clear, thorough documentation makes your work understandable, reproducible, and valuable for collaborators and your future self. It connects code, data, and outcomes into a coherent narrative.
 
 
 ---
