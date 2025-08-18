@@ -14,7 +14,8 @@ Breast Cancer Classification Project
 ├── 01_Preprocess.ipynb           # 🧹 Data preprocessing script  
 ├── 02_Exploratory_Analysis.ipynb # 🔎 Exploratory Data Analysis  
 ├── 03_Model_Experiment.ipynb     # 🧪 Model experimentation  
-├── 04_Final_Model.ipynb          # 🏆 Final model training & saving     └── README.md                     # 📖 Project documentation  
+├── 04_Final_Model.ipynb          # 🏆 Final model training & saving     
+└── README.md                     # 📖 Project documentation  
 ```
 
 
