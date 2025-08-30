@@ -115,7 +115,7 @@ This project is designed to guide you through a complete machine learning workfl
 
 ## 📌 Next Steps
 
-    ## 🆕 v2.0: Interactive Streamlit Demo (Planned)
+🆕 v2.0: Interactive Streamlit Demo (Planned)
 
     - A **Streamlit demo app** will be developed to enable interactive, real-time predictions, allowing users to input features and receive instant diagnostic feedback.
     - This feature will be introduced after learning deployment and web app integration topics.
