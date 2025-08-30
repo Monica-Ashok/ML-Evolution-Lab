@@ -72,15 +72,6 @@ This project is designed to guide you through a complete machine learning workfl
     - Exported the trained model using `joblib` for seamless deployment.  
       - Provided clear documentation and usage instructions for both technical and non-technical audiences in `04_Final_Model.ipynb`. 
 
-    ## 🆕 v2.0: Interactive Streamlit Demo (Planned)
-
-    - A **Streamlit demo app** will be developed to enable interactive, real-time predictions, allowing users to input features and receive instant diagnostic feedback.
-    - This feature will be introduced after learning deployment and web app integration topics.
-    - Comprehensive documentation and usage instructions will be included for both technical and non-technical audiences.
-    - The upgrade will enhance accessibility and practicality, making the project suitable for real-world diagnostic scenarios.
-
-    *This stage delivers a robust, production-ready solution, combining high accuracy with transparency and ease of use for breast cancer diagnosis.*
-
 ---
 
 ## 📊 Dataset Information  
@@ -124,10 +115,14 @@ This project is designed to guide you through a complete machine learning workfl
 
 ## 📌 Next Steps  
 
-- Integrate **EDA visualizations** to better understand data characteristics and class distributions.  
-- Conduct **model experiments** to benchmark different algorithms.  
-- Train and save the **final model**, documenting performance metrics and insights.  
-- Update this README with results, visualizations, and deployment instructions.
+### 🆕 v2.0: Interactive Streamlit Demo (Planned)
+
+  - A **Streamlit demo app** will be developed to enable interactive, real-time predictions, allowing users to input features and receive instant diagnostic feedback.
+  - This feature will be introduced after learning deployment and web app integration topics.
+  - Comprehensive documentation and usage instructions will be included for both technical and non-technical audiences.
+  - The upgrade will enhance accessibility and practicality, making the project suitable for real-world diagnostic scenarios.
+
+*This stage delivers a robust, production-ready solution, combining high accuracy with transparency and ease of use for breast cancer diagnosis.*
 
 ---
 
