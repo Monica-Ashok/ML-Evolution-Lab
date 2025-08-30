@@ -48,24 +48,38 @@ This project is designed to guide you through a complete machine learning workfl
 
   *These EDA findings provide actionable insights, validate data quality, and strategically inform feature engineering and model development for robust, interpretable results.*  
 
+2. **Model Experminentation** ✅ 
+    - Explored a diverse set of algorithms:  
+      - **Logistic Regression** for baseline interpretability  
+      - **K-Nearest Neighbors (KNN)** for instance-based learning  
+      - **Decision Tree** for transparent, rule-based classification  
+      - **Random Forest** for robust ensemble learning  
+      - **Gradient Boosting** (XGBoost & LightGBM) for advanced performance  
+      - **Support Vector Machines** for margin-based classification  
+    - Implemented **stratified cross-validation** to ensure fair model comparison and mitigate class imbalance effects.  
+    - Systematically tuned hyperparameters using grid search and randomized search, optimizing for accuracy and generalization.  
+    - Assessed models with multiple metrics: **accuracy, precision, recall, F1-score, ROC-AUC**, and confusion matrices for nuanced evaluation.  
+    - Visualized **learning curves** and **validation curves** to diagnose overfitting and underfitting.  
+    - Investigated **feature importances** and **SHAP values** to interpret model decisions and support transparent ML practices.  
+    - Documented all experiments in `03_Model_Experiment.ipynb` for reproducibility and future reference.  
 
-3. **Model Experimentation** — *Coming Soon*  
-    - Train and compare multiple machine learning models, including:  
-      - Logistic Regression  
-      - Random Forest  
-      - Gradient Boosting (XGBoost / LightGBM)  
-      - Support Vector Machines  
-    - Evaluate models using metrics such as accuracy, precision, recall, and F1-score.
+    *This rigorous experimentation phase identified XGBoost and Random Forest as the most reliable and interpretable models for breast cancer classification.*
 
-    *Experimentation will help identify the most effective approach for this classification task.*
+    4. **Final Model** ✅  
+    - Selected **XGBoost** as the final model based on superior validation metrics and interpretability.  
+    - Performed **fine-grained hyperparameter tuning** to maximize predictive performance and minimize generalization error.  
+    - Evaluated the final model on a **hold-out test set**, reporting comprehensive metrics and calibration plots.  
+    - Exported the trained model using `joblib` for seamless deployment.  
+      - Provided clear documentation and usage instructions for both technical and non-technical audiences in `04_Final_Model.ipynb`. 
 
-4. **Final Model & Deployment** — *Coming Soon*  
-    - Select the best-performing model based on evaluation metrics.  
-    - Fine-tune hyperparameters for optimal performance.  
-    - Save the final model for future use or deployment.  
-    - *(Optional)* Develop a user-friendly demo application using Streamlit to showcase predictions.
+    ## 🆕 v2.0: Interactive Streamlit Demo (Planned)
 
-    *This stage will culminate in a deployable solution, ready for real-world use.*
+    - A **Streamlit demo app** will be developed to enable interactive, real-time predictions, allowing users to input features and receive instant diagnostic feedback.
+    - This feature will be introduced after learning deployment and web app integration topics.
+    - Comprehensive documentation and usage instructions will be included for both technical and non-technical audiences.
+    - The upgrade will enhance accessibility and practicality, making the project suitable for real-world diagnostic scenarios.
+
+    *This stage delivers a robust, production-ready solution, combining high accuracy with transparency and ease of use for breast cancer diagnosis.*
 
 ---
 
