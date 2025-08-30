@@ -23,7 +23,7 @@ Breast Cancer Classification Project
 
 This project is designed to guide you through a complete machine learning workflow for breast cancer classification, emphasizing clarity, reproducibility, and best practices. Each stage is modular, allowing for easy updates and experimentation.
 
-1. **Preprocessing** ✅  
+### **1. Preprocessing** ✅  
   - Imported the **Breast Cancer Wisconsin dataset** directly from scikit-learn, ensuring reproducibility and accessibility.  
   - Conducted a thorough audit of dataset structure, data types, and missing values to establish a reliable data foundation.  
   - Addressed **missing values** using median imputation, preserving statistical integrity, or removed records only when necessary.  
@@ -36,7 +36,7 @@ This project is designed to guide you through a complete machine learning workfl
   *This meticulous preprocessing ensures the dataset is accurate, consistent, and primed for professional-grade machine learning workflows.*  
 
 
-2. **EDA (Exploratory Data Analysis)** ✅  
+### **2. EDA (Exploratory Data Analysis)** ✅  
   - Assessed **class distribution**, confirming a slight imbalance (more benign than malignant), which informs model evaluation strategies.  
   - Generated comprehensive **summary statistics**, including skewness and kurtosis, to characterize feature distributions and identify potential modeling challenges.  
   - Visualized data using **histograms, KDE plots, and violin plots**, revealing feature skewness and clear separation between malignant and benign cases.  
@@ -48,33 +48,33 @@ This project is designed to guide you through a complete machine learning workfl
 
   *These EDA findings provide actionable insights, validate data quality, and strategically inform feature engineering and model development for robust, interpretable results.*  
 
-2. **Model Experminentation** ✅ 
-    - Explored a diverse set of algorithms:  
+### **3. Model Experminentation** ✅ 
+  - Explored a diverse set of algorithms:  
       - **Logistic Regression** for baseline interpretability  
       - **K-Nearest Neighbors (KNN)** for instance-based learning  
       - **Decision Tree** for transparent, rule-based classification  
       - **Random Forest** for robust ensemble learning  
       - **Gradient Boosting** (XGBoost & LightGBM) for advanced performance  
       - **Support Vector Machines** for margin-based classification  
-    - Implemented **stratified cross-validation** to ensure fair model comparison and mitigate class imbalance effects.  
-    - Systematically tuned hyperparameters using grid search and randomized search, optimizing for accuracy and generalization.  
-    - Assessed models with multiple metrics: **accuracy, precision, recall, F1-score, ROC-AUC**, and confusion matrices for nuanced evaluation.  
-    - Visualized **learning curves** and **validation curves** to diagnose overfitting and underfitting.  
-    - Investigated **feature importances** and **SHAP values** to interpret model decisions and support transparent ML practices.  
-    - Documented all experiments in `03_Model_Experiment.ipynb` for reproducibility and future reference.  
+  - Implemented **stratified cross-validation** to ensure fair model comparison and mitigate class imbalance effects.  
+  - Systematically tuned hyperparameters using grid search and randomized search, optimizing for accuracy and generalization.  
+  - Assessed models with multiple metrics: **accuracy, precision, recall, F1-score, ROC-AUC**, and confusion matrices for nuanced evaluation.  
+  - Visualized **learning curves** and **validation curves** to diagnose overfitting and underfitting.  
+  - Investigated **feature importances** and **SHAP values** to interpret model decisions and support transparent ML practices.  
+  - Documented all experiments in `03_Model_Experiment.ipynb` for reproducibility and future reference.  
 
-    *This rigorous experimentation phase identified XGBoost and Random Forest as the most reliable and interpretable models for breast cancer classification.*
+*This rigorous experimentation phase identified XGBoost and Random Forest as the most reliable and interpretable models for breast cancer classification.*
 
-    4. **Final Model** ✅  
-    - Selected **XGBoost** as the final model based on superior validation metrics and interpretability.  
-    - Performed **fine-grained hyperparameter tuning** to maximize predictive performance and minimize generalization error.  
-    - Evaluated the final model on a **hold-out test set**, reporting comprehensive metrics and calibration plots.  
+### **4. Final Model** ✅  
+  - Selected **XGBoost** as the final model based on superior validation metrics and interpretability.  
+  - Performed **fine-grained hyperparameter tuning** to maximize predictive performance and minimize generalization error.  
+  - Evaluated the final model on a **hold-out test set**, reporting comprehensive metrics and calibration plots.  
     - Exported the trained model using `joblib` for seamless deployment.  
-      - Provided clear documentation and usage instructions for both technical and non-technical audiences in `04_Final_Model.ipynb`. 
+    - Provided clear documentation and usage instructions for both technical and non-technical audiences in `04_Final_Model.ipynb`. 
 
 ---
 
-## 📊 Dataset Information  
+## 📊 **Dataset Information** 
 
 - **Name:** Wisconsin Breast Cancer Dataset  
 - **Source:** `scikit-learn.datasets.load_breast_cancer`  
@@ -90,18 +90,7 @@ This project is designed to guide you through a complete machine learning workfl
 
 ---
 
-## 🚀 Current Progress  
-
-- ✅ Preprocessing completed: Data is clean and ready for analysis.  
-- ⏳ EDA: Visualizations and insights are in development.  
-- ⏳ Model experimentation: Multiple algorithms will be tested soon.  
-- ⏳ Final model: Training, evaluation, and deployment are upcoming.
-
-*Progress is tracked step-by-step, ensuring transparency and reproducibility.*
-
----
-
-## 🛠️ Tech Stack  
+## 🛠️ **Tech Stack** 
 
 - **Python 3.9+**  
 - **Libraries:**  
@@ -113,7 +102,7 @@ This project is designed to guide you through a complete machine learning workfl
 
 ---
 
-## 📌 Next Steps
+## 📌 **Next Steps**
 
 - Integrate **EDA visualizations** to better understand data characteristics and class distributions.  
 - Conduct **model experiments** to benchmark different algorithms.  
