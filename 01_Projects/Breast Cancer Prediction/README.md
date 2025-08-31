@@ -60,7 +60,7 @@ This project is designed to guide you through a complete machine learning workfl
   - Systematically tuned hyperparameters using grid search and randomized search, optimizing for accuracy and generalization.  
   - Assessed models with multiple metrics: **accuracy, precision, recall, F1-score, ROC-AUC**, and confusion matrices for nuanced evaluation.  
   - Visualized **learning curves** and **validation curves** to diagnose overfitting and underfitting.  
-  - Investigated **feature importances** and **SHAP values** to interpret model decisions and support transparent ML practices.  
+  - Investigated **feature importances** to interpret model decisions and support transparent ML practices.  
   - Documented all experiments in `03_Model_Experiment.ipynb` for reproducibility and future reference.  
 
 *This rigorous experimentation phase identified XGBoost and Random Forest as the most reliable and interpretable models for breast cancer classification.*
