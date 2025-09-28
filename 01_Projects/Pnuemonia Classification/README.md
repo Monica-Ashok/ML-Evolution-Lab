@@ -67,8 +67,7 @@ Key steps:
 ### 4. Final Model ✅  
 - **MobileNetV2** was selected due to superior overall performance, especially **Recall** (minimizing false negatives is crucial in medical diagnosis).  
 - Loaded the **best saved weights** for MobileNetV2 and validated performance on the **hold-out test set**.  
-- Saved the finalized model in **`.keras` format**, ensuring architecture, weights, and optimizer state preservation.  
-- Provided code and notes on saving with `.pkl`, explaining why it’s **not recommended** for deep learning models.  
+- Saved the finalized model in **`.keras` format**, ensuring architecture, weights, and optimizer state preservation.   
 
 ---
 
