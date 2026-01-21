@@ -4,7 +4,7 @@ Welcome to **ML Evolution Lab** – your hands-on, research-driven platform for 
 
 Each weekly project is designed to deepen your understanding, encourage creative experimentation, and expand your applied AI skills.
 
-## 🚀 Weekly Updates – Stay Tuned!
+## 🚀 Weekly Updates – Stay Tuned! 
 
 Bookmark this repository for fresh projects and updates every week.
 
