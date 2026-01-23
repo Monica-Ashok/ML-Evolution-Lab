@@ -8,7 +8,7 @@ Each weekly project is designed to deepen your understanding, encourage creative
 
 Bookmark this repository for fresh projects and updates every week.
 
-## 🌱 Purpose of ML Evolution LabTasks
+## 🌱 Purpose of ML Evolution LabTasks 
 
 
 Build real-world machine learning skills by solving practical problems—not just following tutorials. This lab is dedicated to hands-on learning, with one impactful project every week.
