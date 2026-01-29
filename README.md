@@ -1,4 +1,4 @@
-# 🧠 ML Evolution Lab
+# 🧠 ML Evolution Lab  
 
 Welcome to **ML Evolution Lab** – your hands-on, research-driven platform for mastering Machine Learning and Artificial Intelligence. Explore a curated journey from foundational ML projects (such as diabetes prediction) to advanced, production-ready AI solutions featuring **MLOps**, **model monitoring**, and **scalability**.
 
